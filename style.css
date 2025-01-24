@@ -37,4 +37,26 @@
     isolation: isolate;
   }
 
-  
+@font-face {
+    font-family: "adventure";
+    src: 
+        url("fonts/adventurerdemoregular-webfont.woff2"),
+        url("fonts/adventurerdemoregular-webfont.woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "dragraces";
+    src: 
+        url("fonts/dragracesdemoregular-webfont.woff2"),
+        url("fonts/dragracesdemoregular-webfont.woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: norse;
+    src: url(Norse-Bold.otf);
+}
+
