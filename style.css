@@ -47,7 +47,7 @@
 }
 
 @font-face {
-    font-family: "dragraces";
+    font-family: "dragrace";
     src: 
         url("fonts/dragracesdemoregular-webfont.woff2"),
         url("fonts/dragracesdemoregular-webfont.woff");
@@ -56,7 +56,53 @@
 }
 
 @font-face {
-    font-family: norse;
-    src: url(Norse-Bold.otf);
+    font-family: "norse";
+    src: url("fonts/Norse-Bold.otf");
 }
 
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.section-pic {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("imgs/bg.jpg");
+    background-size: cover;
+}
+
+.logo {
+    background-color: rgba(0, 0, 0, 0.750);
+    width: 100%;
+    align-self: flex-start;
+    margin-top: 5px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    font-family: norse, sans-serif;
+    color: white;
+    font-size: 60px;
+}
+
+.logo img {
+    width: 90px;
+    padding: 10px;
+}
+
+.credit {
+    font-family: adventure;
+    color: white;
+}
+
+.credit a {
+    text-decoration: none;
+    color: white;
+}
+
+.section-main {
+    flex-grow: 2;
+}
