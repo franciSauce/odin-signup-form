@@ -67,6 +67,7 @@
 
 .section-pic {
     flex-grow: 1;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -198,11 +199,24 @@ input:focus {
   outline: none;
   box-shadow: 4px 4px 5px rgba(4, 122, 233, 0.829);
 }
+/* 
+input[type="text"]:valid,
+input[type="tel"]:valid,
+input[type="email"]:valid,
+input[type="password"]:valid {
+  border: 2px solid rgb(0, 119, 16);
+}
 
-input:invalid:focus {
+input[type="text"]:invalid,
+input[type="tel"]:invalid,
+input[type="email"]:invalid,
+input[type="password"]:invalid {
+  border: 2px solid rgb(255, 0, 0);
+} */
+/* input:invalid:focus {
   border: 2px solid rgb(255, 69, 100);
 }
 
 input:valid:focus {
   border: 2px solid rgb(0, 183, 255);
-}
+} */
