@@ -134,3 +134,26 @@
   font-family: adventure;
   font-size: 25px;
 }
+
+.user-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 20vw;
+}
+
+user {
+  display: flex;
+}
+
+.form {
+  display: flex;
+  gap: 18vw;
+  
+}
+
+label {
+  font-family: norse;
+  display: flex;
+  flex-direction: column;
+}
