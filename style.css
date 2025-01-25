@@ -83,7 +83,7 @@
     padding: 0px 20px;
     display: flex;
     justify-content: center;
-    font-family: norse, sans-serif;
+    font-family: norse, sans-serif, monospace;
     color: white;
     font-size: 60px;
 }
@@ -94,7 +94,7 @@
 }
 
 .credit {
-    font-family: adventure;
+    font-family: adventure, sans-serif, monospace;
     color: white;
 }
 
@@ -126,12 +126,12 @@
 }
 
 .top p {
-  font-family: dragrace;
+  font-family: dragrace, sans-serif, monospace;
   font-size: 25px;
 }
 
 .mid p {
-  font-family: adventure;
+  font-family: adventure, sans-serif, monospace;
   font-size: 25px;
 }
 
@@ -153,7 +153,34 @@ user {
 }
 
 label {
-  font-family: norse;
+  font-family: norse, sans-serif, monospace;
   display: flex;
   flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: bright rgb(24, 39, 126);
+  font-family: adventure;
+}
+
+.bottom p {
+  font-family: adventure, sans-serif, monospace;
+  font-size: 25px;
+}
+
+.bottom button {
+  background-color: rgb(24, 39, 126);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  color: white;
+  font-size: 20px;
+  font-family: adventure, sans-serif, monospace;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+}
+
+button:hover {
+  background-color: rgb(0, 119, 16);
+  cursor: pointer;
 }
