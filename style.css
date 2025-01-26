@@ -69,7 +69,7 @@
     flex-grow: 1;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     background-image: url("imgs/bg.jpg");
@@ -87,6 +87,7 @@
     font-family: norse, sans-serif, monospace;
     color: white;
     font-size: 60px;
+    margin-top: 17.5vh;
 }
 
 .logo img {
@@ -147,10 +148,9 @@ user {
   display: flex;
 }
 
-.form {
+#form {
   display: flex;
-  gap: 18vw;
-  
+  gap: 15vw;
 }
 
 label {
@@ -213,10 +213,10 @@ input[type="email"]:invalid,
 input[type="password"]:invalid {
   border: 2px solid rgb(255, 0, 0);
 } */
-/* input:invalid:focus {
+input:invalid:focus {
   border: 2px solid rgb(255, 69, 100);
 }
 
-input:valid:focus {
+input:valid {
   border: 2px solid rgb(0, 183, 255);
-} */
+}
